@@ -37,7 +37,7 @@ public class DragTower : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
             GameObject newTower = Instantiate(tower) as GameObject;
             newTower.transform.position = new Vector3(hitPos.x, .4f, hitPos.z);
             AstarPath.active.Scan();
-        }
+		}
 
         
         itemBeingDragged = null;

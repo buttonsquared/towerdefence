@@ -9,5 +9,8 @@ public enum StateEnum {
 	StartNextLevel,
 	RestartGame,
 	LevelComplete,
+	LevelFailed,
+	LevelSelector,
+	Pause,
 	Win
 }

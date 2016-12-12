@@ -142,7 +142,6 @@ public class Controller : MonoBehaviour {
     }
 
     public IEnumerator StartNewGame() {
-        Debug.Log("StartNewGame state = " + state);
         if (!paused) {
 			Time.timeScale = 1;
 		}
